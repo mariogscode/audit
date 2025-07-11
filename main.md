@@ -95,5 +95,3 @@ Comparación contra estándares como:
 
 ---
 
-## 📂 Estructura sugerida del repositorio
-
