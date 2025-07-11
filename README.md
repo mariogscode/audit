@@ -86,7 +86,7 @@ Evaluar el estado actual de la seguridad de la organización—infraestructura, 
 
 ---
 
-### 🔁 Fase 6 · Validación de Remediación (Opcional)
+### 🔁 Fase 6 · Validación de Remediación (Opcional) (GSCODE ✅)
 
 **Objetivo:** Confirmar corrección de hallazgos críticos.
 
