@@ -58,7 +58,7 @@ Evaluar el estado actual de la seguridad de la organización—infraestructura, 
 
 ---
 
-### 📋 Fase 4 · Evaluación Normativa y de Cumplimiento (TBD)
+### 📋 Fase 4 · Evaluación Normativa y de Cumplimiento ([`revisar`](./normativas.md))
 
 **Objetivo:** Verificar alineación con estándares/regulaciones.
 
