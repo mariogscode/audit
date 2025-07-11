@@ -54,32 +54,53 @@
             padding: 8px 20px;
             font-size: 1em;
         }
+        #markdown-content {
+            text-align: left;
+            margin-bottom: 30px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Proyecto Auditoria</h1>
         <div id="markdown-content"></div>
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-        <script>
-        fetch('README.md')
-          .then(res => res.text())
-          .then(md => {
-            document.getElementById('markdown-content').innerHTML = marked.parse(md);
-          })
-          .catch(error => {
-            document.getElementById('markdown-content').innerHTML = 'No se pudo cargar el archivo README.md';
-          });
-</script>
-        
         <ul class="md-files">
-            <li><a class="md-link" href="main.md" target="_blank">main.md</a></li>
-            <li><a class="md-link" href="CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a></li>
-            <li><a class="md-link" href="CODE_OF_CONDUCT.md" target="_blank">CODE_OF_CONDUCT.md</a></li>
+            <li><a class="md-link" href="README.md">README.md</a></li>
+            <li><a class="md-link" href="main.md">main.md</a></li>
+            <li><a class="md-link" href="CONTRIBUTING.md">CONTRIBUTING.md</a></li>
+            <li><a class="md-link" href="CODE_OF_CONDUCT.md">CODE_OF_CONDUCT.md</a></li>
             <!-- Add more .md files here as needed -->
         </ul>
         <p>For more information, visit the project on GitHub:</p>
         <a class="repo-link" href="https://github.com/mariogscode/audit" target="_blank" rel="noopener">View on GitHub</a>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        function loadMarkdown(file) {
+            fetch(file)
+              .then(res => {
+                if (!res.ok) throw new Error('Not found');
+                return res.text();
+              })
+              .then(md => {
+                document.getElementById('markdown-content').innerHTML = marked.parse(md);
+              })
+              .catch(error => {
+                document.getElementById('markdown-content').innerHTML = 'No se pudo cargar el archivo ' + file;
+              });
+        }
+
+        // Load README.md by default
+        loadMarkdown('README.md');
+
+        // Handle clicks on .md links
+        document.querySelectorAll('.md-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const file = this.getAttribute('href');
+                loadMarkdown(file);
+            });
+        });
+    </script>
 </body>
 </html>
