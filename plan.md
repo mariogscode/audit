@@ -9,6 +9,7 @@ Evaluar el estado actual de la seguridad de la organización—infraestructura, 
 ## 2. Fases del Plan
 
 ### 🔍 Fase 1 · Alcance y Preparación
+_(esta parte realmente es sencilla de ejecutar)_
 
 **Objetivo:** Definir los sistemas, datos y normativas a auditar.
 
@@ -22,6 +23,7 @@ Evaluar el estado actual de la seguridad de la organización—infraestructura, 
 ---
 
 ### 🏗️ Fase 2 · Levantamiento de Información
+_(esta parte de igual manera podemos ejecutarla sencillo)_
 
 **Objetivo:** Recolectar arquitectura, configuraciones y políticas vigentes.
 
@@ -38,7 +40,7 @@ Evaluar el estado actual de la seguridad de la organización—infraestructura, 
 
 **Objetivo:** Detectar vulnerabilidades técnicas.
 
-#### 3.1 OWASP Web Security Testing
+#### 3.1 OWASP Web Security Testing 
 
 * Chequeo manual y automático (OWASP Top 10).
 
