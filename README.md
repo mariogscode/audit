@@ -38,19 +38,19 @@ Evaluar el estado actual de la seguridad de la organización—infraestructura, 
 
 **Objetivo:** Detectar vulnerabilidades técnicas.
 
-#### 3.1 OWASP Web Security Testing 
+#### 3.1 OWASP Web Security Testing (GSCODE ✅)
 
 * Chequeo manual y automático (OWASP Top 10).
 
-#### 3.2 Escaneo de Infraestructura
+#### 3.2 Escaneo de Infraestructura (TBD)
 
 * Nmap, Nessus/OpenVAS: puertos, versiones, servicios inseguros.
 
-#### 3.3 Pentesting (opcional)
+#### 3.3 Pentesting (opcional) (TBD)
 
 * Ataques simulados sobre red interna/externa, APIs y móviles.
 
-#### 3.4 Seguridad en la Nube
+#### 3.4 Seguridad en la Nube (GSCODE ✅)
 
 * Revisión IAM, buckets públicos, cifrado, configuraciones erróneas.
 
