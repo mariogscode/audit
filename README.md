@@ -44,7 +44,7 @@ Evaluar el estado actual de la seguridad de la organización—infraestructura, 
 
 #### 3.2 Escaneo de Infraestructura (TBD)
 
-* Nmap, Nessus/OpenVAS: puertos, versiones, servicios inseguros.
+* Nmap, Nessus/OpenVAS: puertos, versiones, servicios inseguros.([NMap & Nessus](./owasp-checklist.md)).
 
 #### 3.3 Pentesting (opcional) (TBD)
 
