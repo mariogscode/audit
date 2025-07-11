@@ -78,7 +78,9 @@ Comparación contra estándares como:
 
 ### 9. 📜 Cumplimiento Normativo
 - Revisión contra regulaciones y normas aplicables:
+
 👉 Ver el archivo [`normativas.md`](./normativas.md) para mas informacion.
+
   - ISO/IEC 27001
   - PCI DSS
   - HIPAA
