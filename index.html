@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to audit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for the audit project">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 60px auto;
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        h1 {
+            color: #2d3a4a;
+        }
+        p {
+            color: #4a4a4a;
+            font-size: 1.2em;
+        }
+        .repo-link, .md-link {
+            margin-top: 30px;
+            display: inline-block;
+            padding: 10px 24px;
+            background: #2d3a4a;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .repo-link:hover, .md-link:hover {
+            background: #466086;
+        }
+        ul.md-files {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0 0 0;
+        }
+        ul.md-files li {
+            margin: 10px 0;
+        }
+        ul.md-files a.md-link {
+            padding: 8px 20px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the audit project</h1>
+        <p>This is the root index.html file for the audit repository.</p>
+        <p>Browse the Markdown documentation below:</p>
+        <ul class="md-files">
+            <li><a class="md-link" href="README.md" target="_blank">README.md</a></li>
+            <li><a class="md-link" href="CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a></li>
+            <li><a class="md-link" href="CODE_OF_CONDUCT.md" target="_blank">CODE_OF_CONDUCT.md</a></li>
+            <!-- Add more .md files here as needed -->
+        </ul>
+        <p>For more information, visit the project on GitHub:</p>
+        <a class="repo-link" href="https://github.com/mariogscode/audit" target="_blank" rel="noopener">View on GitHub</a>
+    </div>
+</body>
+</html>
