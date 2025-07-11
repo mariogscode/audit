@@ -10,9 +10,15 @@ Evaluar el nivel de seguridad de una organización mediante pruebas técnicas y 
 
 ---
 
+## 🎯 Simbologia
+
+Todos las etapas con el icono  🛡️ son etapas que considero manejables de ser ejecutadas por mi persona o por un similar sin especialzacion en el tema de cyberseguridad
+
+---
+
 ## 🧪 Áreas de pruebas incluidas
 
-### 1. ✅ OWASP Top 10 (Aplicaciones Web)
+### 1. ✅ OWASP Top 10 (Aplicaciones Web) 🛡️
 Basado en las vulnerabilidades más comunes en desarrollo web.
 
 - A01: Broken Access Control
@@ -29,7 +35,7 @@ Basado en las vulnerabilidades más comunes en desarrollo web.
 
 ---
 
-### 2. 🖥️ Revisión de Infraestructura
+### 2. 🖥️ Revisión de Infraestructura 🛡️
 - Escaneo de puertos abiertos (ej. Nmap)
 - Revisión de versiones y parches de sistema
 - Configuración de firewall, VPN y servicios expuestos
@@ -37,7 +43,7 @@ Basado en las vulnerabilidades más comunes en desarrollo web.
 
 ---
 
-### 3. 🧬 Análisis de Vulnerabilidades
+### 3. 🧬 Análisis de Vulnerabilidades 
 - Herramientas: Nessus, OpenVAS, Qualys
 - Detección de software desactualizado y servicios inseguros
 
@@ -49,13 +55,13 @@ Basado en las vulnerabilidades más comunes en desarrollo web.
 
 ---
 
-### 5. ☁️ Evaluación de Seguridad en la Nube
+### 5. ☁️ Evaluación de Seguridad en la Nube 🛡️
 - Revisión de configuraciones en AWS, GCP, Azure
 - IAM, permisos, buckets públicos, logging activo
 
 ---
 
-### 6. 🛠 Hardening y Configuración
+### 6. 🛠 Hardening y Configuración 🛡️
 Comparación contra estándares como:
 
 - CIS Benchmarks
@@ -64,13 +70,13 @@ Comparación contra estándares como:
 
 ---
 
-### 7. 🎣 Ingeniería Social (opcional y bajo acuerdo)
+### 7. 🎣 Ingeniería Social (opcional y bajo acuerdo) 🛡️
 - Simulación de phishing
 - Pruebas de conciencia del usuario
 
 ---
 
-### 8. 📊 Revisión de Logs y Monitoreo
+### 8. 📊 Revisión de Logs y Monitoreo 🛡️
 - Verificación de registros de eventos críticos
 - Alertas y mecanismos de detección de incidentes
 
