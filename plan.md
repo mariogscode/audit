@@ -120,15 +120,3 @@ Evaluar el estado actual de la seguridad de la organización—infraestructura, 
 | Stakeholder de Negocio        | Dirección / Gerencia                    |
 
 ---
-
-## 5. Plantillas Sugeridas
-
-* `scope-document.md` · Alcance
-* `owasp-checklist.md` · Pruebas web
-* `compliance-summary.md` · Matriz de cumplimiento
-* `remediation-plan.xlsx` · Plan de acción
-* `final-report.pdf` · Informe consolidado
-
----
-
-> **Notas:** Ajustar duraciones y responsables según el tamaño y la complejidad de la organización. Este plan sirve como punto de partida y debe adaptarse a los requisitos específicos del cliente.
