@@ -40,7 +40,7 @@ Evaluar el estado actual de la seguridad de la organización—infraestructura, 
 
 #### 3.1 OWASP Web Security Testing (GSCODE ✅)
 
-* Chequeo manual y automático (OWASP Top 10).
+* Chequeo manual y automático ([OWASP Top 10](./owasp-checklist.md)).
 
 #### 3.2 Escaneo de Infraestructura (TBD)
 
