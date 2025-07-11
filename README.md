@@ -8,8 +8,7 @@ Evaluar el estado actual de la seguridad de la organización—infraestructura, 
 
 ## 2. Fases del Plan
 
-### 🔍 Fase 1 · Alcance y Preparación
-_(esta parte realmente es sencilla de ejecutar)_
+### 🔍 Fase 1 · Alcance y Preparación (GSCODE ✅)
 
 **Objetivo:** Definir los sistemas, datos y normativas a auditar.
 
@@ -22,8 +21,7 @@ _(esta parte realmente es sencilla de ejecutar)_
 
 ---
 
-### 🏗️ Fase 2 · Levantamiento de Información
-_(esta parte de igual manera podemos ejecutarla sencillo)_
+### 🏗️ Fase 2 · Levantamiento de Información (GSCODE ✅)
 
 **Objetivo:** Recolectar arquitectura, configuraciones y políticas vigentes.
 
@@ -36,7 +34,7 @@ _(esta parte de igual manera podemos ejecutarla sencillo)_
 
 ---
 
-### 🧪 Fase 3 · Evaluación Técnica
+### 🧪 Fase 3 · Evaluación Técnica (TBD)
 
 **Objetivo:** Detectar vulnerabilidades técnicas.
 
@@ -60,7 +58,7 @@ _(esta parte de igual manera podemos ejecutarla sencillo)_
 
 ---
 
-### 📋 Fase 4 · Evaluación Normativa y de Cumplimiento
+### 📋 Fase 4 · Evaluación Normativa y de Cumplimiento (TBD)
 
 **Objetivo:** Verificar alineación con estándares/regulaciones.
 
@@ -73,7 +71,7 @@ _(esta parte de igual manera podemos ejecutarla sencillo)_
 
 ---
 
-### 🧾 Fase 5 · Informe Final y Plan de Remediación
+### 🧾 Fase 5 · Informe Final y Plan de Remediación (GSCODE ✅)
 
 **Objetivo:** Consolidar hallazgos, clasificar riesgos y proponer acciones.
 
